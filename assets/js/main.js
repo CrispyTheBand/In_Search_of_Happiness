@@ -4,6 +4,13 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+function hover(element) {
+        element.setAttribute('src', 'https://raw.githubusercontent.com/CrispyTheBand/In_Search_of_Happiness/master/images/share_hover.png');
+}
+function unhover(element) {
+        element.setAttribute('src', 'https://raw.githubusercontent.com/CrispyTheBand/In_Search_of_Happiness/master/images/share.png');
+}
+
 (function($) {
 
 	skel.breakpoints({
@@ -14,6 +21,7 @@
 		xsmall:		'(max-width: 480px)',
 		xxsmall:	'(max-width: 360px)'
 	});
+
 
 	$(function() {
 
