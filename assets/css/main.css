@@ -98,15 +98,15 @@
 		@media screen and (max-width: 1680px) {
 
 			html {
-				font-size: 12pt;
+				font-size: 11pt;
 			}
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 769px) {
 
 			html {
-				font-size: 11pt;
+				font-size: 10pt;
 			}
 
 		}
@@ -1607,4 +1607,22 @@
             width: 15%;
             margin: auto;
             display: block;
+        }
+		@media screen and (max-width: 1680px) {
+            .option-button {
+                display: inline-block;
+                width: 230px
+            }
+        }
+	    @media screen and (max-width: 769px) {
+            .option-button {
+                display: inline-block;
+                width: 180px
+            }
+        }
+		@media screen and (max-width: 480px) {
+            .option-button {
+                display: inline-block;
+                width: 230px
+            }
         }
