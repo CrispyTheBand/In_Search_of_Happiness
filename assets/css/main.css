@@ -1232,6 +1232,10 @@
 			border: solid 1px #ffffff;
 			border-radius: 100%;
 		}
+            .logo-img {
+                padding-top: 22px;
+                width: 85%;
+            }
 
 			#header .logo .icon:before {
 				font-size: 2rem;
@@ -1374,11 +1378,15 @@
 					top: calc(-2rem - 1px);
 					height: calc(2rem + 1px);
 				}
+            .logo-img {
+                padding-top: 10px;
+                width: 75%;
+            }
 
 			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
-				line-height: 4.75rem;
+				width: 2.75rem;
+				height: 2.75rem;
+				line-height: 2.75rem;
 			}
 
 				#header .logo .icon:before {
