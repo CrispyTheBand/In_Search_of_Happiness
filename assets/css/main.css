@@ -1092,7 +1092,7 @@
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			/*background-image: url("../../images/main.png");*/
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.8), rgba(19, 21, 25, 0.8)), url("../../images/main.png");
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.8), rgba(19, 21, 25, 0.8)), url("../../images/main3.png");
 			/*background-color: rgba(9, 11, 15, 0.9);*/
 			background-position: center;
 			background-size: cover;
